@@ -3,7 +3,10 @@ import MontserratMedium from './Assets/Fonts/Montserrat/Montserrat-Medium.ttf';
 import MontserratBold from './Assets/Fonts/Montserrat/Montserrat-Bold.ttf';
 import MontserratExtraBold from './Assets/Fonts/Montserrat/Montserrat-ExtraBold.ttf';
 import SourceSansProRegular from './Assets/Fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf';
+import reset from 'styled-reset';
 export default createGlobalStyle`
+ ${reset}
+    
 @font-face {
     font-family: 'Montserrat Medium';
     src: url(${MontserratMedium}) format('truetype');
